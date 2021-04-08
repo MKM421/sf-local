@@ -9,10 +9,11 @@
 .Business .image-container {
   height: 19.66rem;
   margin-bottom: 1rem;
+  border-radius:10px;
 }
 
 .Business .image-container img {
-  width:110%;
+  width:115%;
 }
 
 .Business h2 {
