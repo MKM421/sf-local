@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 26.66rem;
+  width: 29.66rem;
   margin: 0 .5rem 2.3rem .5rem;
 }
 
@@ -54,4 +54,54 @@
 .Business-reviews .rating {
   font-size: .88rem;
   line-height: 1rem;
+}
+
+@media only screen and (max-width: 1600px) {
+  .Business {
+    width: 24.66rem;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .Business {
+    width: 23.66rem;
+  }
+}
+
+@media only screen and (max-width: 1330px) {
+  .Business {
+    width: 22.66rem;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .Business {
+    width: 30.66rem;
+  }
+}
+
+
+@media only screen and (max-width: 1180px) {
+  .Business {
+    width: 25.66rem;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .Business {
+    width: 22.66rem;
+  }
+}
+
+
+@media only screen and (max-width: 880px) {
+  .Business {
+    width: 21.66rem;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .Business {
+    width: 31.66rem;
+  }
 }

@@ -2,5 +2,17 @@
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  margin: 2.4rem 10%;
+  margin: 2.4rem 5%;
+}
+
+@media only screen and (max-width: 1600px) {
+  .BusinessList {
+    margin: 2.4rem 3%;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .BusinessList {
+    margin: 2.4rem 0;
+  }
 }
