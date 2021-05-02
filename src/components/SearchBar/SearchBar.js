@@ -51,7 +51,7 @@ class SearchBar extends React.Component {
 
   handleKeyDown(event) {
     if (event.key === 'Enter') {
-      this.props.searchYelp(this.state.term);
+      this.props.searchYelp(this.state.term, this.state.location, this.state.sortBy);
       event.preventDefault();
     }
   }
@@ -79,7 +79,7 @@ class SearchBar extends React.Component {
           <input placeholder="Search Food, Hikes, Bars, etc.." onChange={this.handleTermChange} onKeyDown={this.handleKeyDown}/>
         </div>
         <div className="SearchBar-submit">
-          <a onClick={this.handleSearch}>Let's Go</a>
+          <a href="#/" onClick={this.handleSearch}>Let's Go</a>
         </div>
       </div>
     );
